@@ -1,4 +1,5 @@
-from . import np, tqdm
+import numpy as np
+import tqdm
 from utils.functions import sigmoid, relu, softmax, conv2d, rot180
 from scipy.signal import correlate2d
 # import sklearn as s
@@ -319,7 +320,7 @@ if __name__ == '__main__':
     from PIL import Image
     import matplotlib.image as mpimg
     from matplotlib import pyplot as plt
-    import cv2
+    # import cv2
     
     with open("P:/data/cifar10/labels.txt") as f:
         print(f.name)
