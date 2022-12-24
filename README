@@ -1,0 +1,3 @@
+Before you start important is to do with the setup.py:
+In the inside the directory cd path/to/.../AILib
+pip install -e . --> Then you can use it everywhere in the virual enviroment or event in your main python
