@@ -1,4 +1,4 @@
-from . import np
+import numpy as np
 
 class Opt:
     def __init__(self, lr):

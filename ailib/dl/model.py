@@ -1,5 +1,5 @@
-
-from . import np, tqdm
+import numpy as np
+from tqdm import tqdm
 import os
 from utils.functions import shuffle, split
 from utils.dbs import DataBase 

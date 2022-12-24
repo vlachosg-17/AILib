@@ -1,5 +1,5 @@
 import numpy as np
-import tqdm
+from tqdm import tqdm
 from utils.functions import sigmoid, relu, softmax, conv2d, rot180
 from scipy.signal import correlate2d
 # import sklearn as s
