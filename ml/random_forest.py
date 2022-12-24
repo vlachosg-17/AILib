@@ -32,10 +32,10 @@ class RForest:
 
     def fit(self, X, y):
         # self.X, self.y = X, y
-        if self.n_vars is "auto": 
+        if self.n_vars == "auto": 
             if X.shape[1]%2: m = int(np.sqrt(X.shape[1]))
             else:            m = int(np.floor(np.log(X.shape[1])+1))
-        elif self.n_vars is "all": m = X.shape[1]
+        elif self.n_vars == "all": m = X.shape[1]
         else: m = self.n_vars
 
         for i, (xs, ys) in self.subsamples(X, y):

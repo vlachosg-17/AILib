@@ -1,9 +1,9 @@
 from matplotlib import pyplot as plt
 
-from utils.helpers import load_iris, split_sets
-from graph_tree.plot_tree import dt_graph
 from ml.tree import DTree
 from ml.random_forest import RForest
+from graph_tree.plot_tree import dt_graph
+from utils.helpers import load_iris, split_sets
 from utils.metric import *
 
 data, labels = load_iris("data/iris.data", shuffle_data=True, seed=0)

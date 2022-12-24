@@ -1,6 +1,6 @@
 import numpy as np
 from tqdm import tqdm
-from gini_index import Gini
+from .gini_index import Gini
 from utils.helpers import vote
 
 class DTree:

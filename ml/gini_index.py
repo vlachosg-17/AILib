@@ -77,7 +77,7 @@ class Gini:
                     best_gini, best_thres, best_var = f["gini"], thr, features[i] 
                     best_groups=[{"X": self.X[f["obs"][0]], "y": self.y[f["obs"][0]]}, {"X": self.X[f["obs"][1]], "y": self.y[f["obs"][1]]}]
         # print(best_gini, best_thres, best_var)
-        if state is "dict":
+        if state == "dict":
             return {"gini": best_gini, "thres": best_thres, "var": best_var, "groups": best_groups}
         else:
             return best_gini, best_thres, best_var, best_groups 
