@@ -2,6 +2,6 @@ from setuptools import setup, find_packages
 
 setup(
     name='AILib', 
-    version='1.0', 
-    packages=find_packages(where="ailib")
+    version='0.1', 
+    packages=find_packages(where="ailib") + find_packages(where="test") 
 )

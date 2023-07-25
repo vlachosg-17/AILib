@@ -1,0 +1,8 @@
+# Files
+dist
+build
+AILib.egg-info
+ailib/AILib.egg-info
+test/AILib.egg-info
+test/__pycache__
+ailib/*/__pycache__
